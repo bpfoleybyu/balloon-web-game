@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
+
+body{
+    background-color: lightgray;
+}
+
+#running_game{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-image: url(https://dumielauxepices.net/sites/default/files/field-clipart-front-lawn-604771-1448020.jpg);
+    background-repeat: no-repeat;
+    opacity: .75;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 20px;
+    box-shadow: 0 0 20px;
+}
+
+h1,p,h2, body, html{
+    font-family: 'Contrail One', cursive;
+}
+
+#start{
+    opacity: 1;
+    border-radius: 10px;
+    margin-top: 300px;
+    left: 50%;
+    width: 150px;
+    height: 75px;
+    -webkit-box-shadow: 0 0 20px;
+    box-shadow: 0 0 20px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Contrail One', cursive;
+    font-size:30px;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0.904);
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+#score{
+    background-color: rgba(0, 0, 0, 0.904);
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+#question {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.904);
+    bottom: 0px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.answerText{
+    font-size: 20px;
+    padding: 10px;
+    color: yellow;
+}
+
+.balloon-red, .balloon-blue, .balloon-white, .balloon-black{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-size: contain;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+.balloon-red{
+    background-image: url(red.jpg);
+    background-repeat: no-repeat;
+}
+.balloon-black{
+    background-image: url(black.jpg);
+    background-repeat: no-repeat;
+}
+.balloon-white{
+    background-image: url(white.jpg);
+    background-repeat: no-repeat;
+}
+.balloon-blue{
+    background-image: url(blue.jpg);
+    background-repeat: no-repeat;
+}
